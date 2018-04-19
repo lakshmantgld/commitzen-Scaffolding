@@ -1,6 +1,8 @@
 # Commitzen-Scaffolding
 Scaffolding for projects that you want to use Commitzen + Commitlint. The goal is to maintain readable and organizable commits.
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![nodeJS](https://img.shields.io/badge/nodeJS-v6.13.0-blue.svg)](https://nodejs.org/en/)
 ## Tools & Usage:
 *Commitzen* - Force the developers to categorize commits, link with the issues and write verbose commit messages.
 *Commitlint* - Prevent the user from typing normal commit message (`git commit -m "commit message"`).
@@ -41,4 +43,13 @@ The Usage is similar to normal git workflow. Try to make atomic commits (atleast
 
 The above step will ask the developer, a series of questions related to the commit. The sequence looks something like this:
 When you run `npm run commit`, the following screens appear:
-![Commit-Category]()
+
+#### Commit Category
+![Commit-Category](https://raw.githubusercontent.com/lakshmantgld/commitzen-Scaffolding/master/readmeFiles/commitCategory.png)
+
+#### Commit Questions
+![Commit-Questions](https://raw.githubusercontent.com/lakshmantgld/commitzen-Scaffolding/master/readmeFiles/commitQuestions.png)
+
+#### Link Github Issues
+As you can see in the last step, you can link github issues with your commits. `closes #1` will close the issue and add the commit to the issue.
+![Github Issue](https://raw.githubusercontent.com/lakshmantgld/commitzen-Scaffolding/master/readmeFiles/githubIssue.png)
