@@ -35,4 +35,10 @@ or Wget:
 `npm install` (Make sure `package.json` is in the root directory)
 
 ### Usage:
+The Usage is similar to normal git workflow. Try to make atomic commits (atleast 1 commit per file).
+1. `git add <File-Name>`
+2. `npm run commit` (Instead of git commit -m "")
 
+The above step will ask the developer, a series of questions related to the commit. The sequence looks something like this:
+When you run `npm run commit`, the following screens appear:
+![Commit-Category]()
